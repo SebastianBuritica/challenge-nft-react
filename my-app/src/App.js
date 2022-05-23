@@ -1,6 +1,5 @@
 import './app.css';
 import CollectionCard from './components/CollectionCard';
-import DataFetching from './components/DataFetching';
 import Header from './components/Header';
 // import { useState, useEffect } from 'react'
 // import axios from 'axios'
@@ -23,7 +22,7 @@ function App() {
         image='https://opensea.mypinata.cloud/ipfs/QmNosQUMy8CLTn4BnM95yVLWLTrEzZW3cMSFozsGrMDgTY/0.png' 
       />
       {/* < Punklist punkListData={punkListData} /> */}
-      < DataFetching />
+      
     </div>
 
     </>

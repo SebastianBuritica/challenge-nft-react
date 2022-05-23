@@ -1,6 +1,6 @@
 import React from 'react'
 import './Header.css'
-import punkLogo from '../assets/header/cryptopunk-logo.png'
+import AnyaLogo from '../assets/header/heater.jpg'
 import searchIcon from '../assets/header/search.png'
 import themeSwitchIcon from '../assets/header/theme-switch.png'
 
@@ -10,7 +10,7 @@ const Header = () => {
 <div className='header'>
     
     <div className='logoContainer'>
-       <img src={punkLogo} className='punkLogo' alt="" /> 
+       <img src={AnyaLogo} className='punkLogo' alt="" /> 
     </div>
 
     <div className='searchBar'>
