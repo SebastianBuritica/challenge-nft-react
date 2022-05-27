@@ -4,18 +4,14 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+}
+.abstractLogo {
+    width: 200px;
+}
+.header>div{
     margin: 10px;
 }
-
-.header > div {
-    margin: 10px;
-}
-
-.punkLogo {
- width: 200px;
-}
-
-.searchBar {
+.searchBar{
     background-color: #1c1c1e;
     height: 50px;
     flex: 1;
@@ -23,12 +19,10 @@
     border-radius: 50px;
     align-items: center;
 }
-
-.searchIconContainer {
+.searchIcon{
     margin: 10px;
 }
-
-.searchInput {
+.searchInput{
     background-color: transparent;
     border: none;
     width: 100%;
@@ -36,26 +30,21 @@
     color: #eee;
     font-size: 16px;
 }
-
-.headerItems {
+.headerItems{
     display: flex;
     color: #a1a5b0;
 }
-
-.headerItems > p {
+.headerItems>p{
     margin: 10px;
 }
-
-.headerActions {
+.headerActions{
     display: flex;
     align-items: center;
 }
-
-.headerActions > div {
+.headerActions>div{
     margin: 10px;
 }
-
-.themeSwitchContainer {
+.themeSwitch{
     display: flex;
     background-color: #1c1c1e;
     border-radius: 50px;
@@ -64,31 +53,12 @@
     align-items: center;
     object-fit: contain;
 }
-
-.themeSwitchContainer > img {
+.themeSwitch>img{
     height: 25px;
 }
-
-         
-.loginButton {
-    background-image: linear-gradient(to right, #FC354C 0%, #0ABFBC  51%, #FC354C  100%);
-    margin: 10px;
-    padding: 15px 45px;
-    text-align: center;
-    text-transform: uppercase;
-    transition: 0.5s;
-    background-size: 200% auto;
-    color: white;            
-    box-shadow: 0 0 13px #eee;
-    border-radius: 10px;
-    display: block;
-  }
-
-  .loginButton:hover {
-    background-position: right center; /* change the direction of the change here */
-    color: #fff;
-    text-decoration: none;
-    cursor: pointer;
-  }
- 
- 
+.loginButton{
+    background: linear-gradient(to right, #59f9b7, #66feea);
+    padding: 15px 40px;
+    border-radius: 50px;
+    color: black;
+}
