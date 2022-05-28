@@ -14,9 +14,9 @@ const Header = () => {
             <input className='searchInput' placeholder='Collections, Items, User' />
         </div>
         <div className='headerItems'>
-            <p>Drops</p>
-            <p>Marketplace</p>
-            <p>Create</p>
+            <p className='drops'>Drops</p>
+            <p className='marketplace'>Marketplace</p>
+            <p className='create'>Create</p>
         </div>
         <div className='headerActions' >
             <div className='themeSwitch'>
@@ -24,7 +24,7 @@ const Header = () => {
             </div>
         </div>
         <div className='loginButton'>
-        <a href="https://www.linkedin.com/in/mrshobhit/">Contact</a>
+        <a href="https://www.linkedin.com/in/sebastian-buritica-berrocal-750b3623a/" target='_blank'>Contact</a>
         </div>
         </div>
 }

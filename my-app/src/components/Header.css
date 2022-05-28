@@ -7,7 +7,7 @@
 }
 .anyaLogo {
     width: 150px;
-    height: 100px;
+    height: 80px;
     border-radius: 70px;
 }
 .header>div{
@@ -38,6 +38,18 @@
 }
 .headerItems>p{
     margin: 10px;
+}
+.drops:hover{
+    color: #eee;
+    cursor: pointer;
+}
+.marketplace:hover{
+    color: #eee;
+    cursor: pointer;
+}
+.create:hover{
+    color: #eee;
+    cursor: pointer;
 }
 .headerActions{
     display: flex;
@@ -78,5 +90,6 @@
     background-position: right center; /* change the direction of the change here */
     color: #fff;
     text-decoration: none;
+    cursor: pointer;
   }
  
