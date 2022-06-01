@@ -71,6 +71,12 @@
     height: 25px;
 }
 
+.themeSwitch:hover{
+    background-color: #1c1c1e;
+    cursor: pointer;
+    box-shadow: 0 0 10px #1c1c1e;
+}
+
          
 .loginButton {
     background-image: linear-gradient(to right, #FC354C 0%, #0ABFBC  51%, #FC354C  100%);
