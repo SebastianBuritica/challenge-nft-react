@@ -6,6 +6,7 @@ import axios from 'axios'
 import AbstractList from './components/AbstractList';
 import Main from './components/Main';
 
+
 function App() {
   const [listData, setListData] = useState([])
   const [selectedNft, setSelectedNft] = useState(0)

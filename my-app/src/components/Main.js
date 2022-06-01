@@ -35,15 +35,18 @@ const Main = ({selectedNft, listData }) => {
                                     </div>
                                 <div className='ownerHandle'>@wolfgangct</div>
                                 </div>
-                                <div className='ownerLink'>
-                                    <img src={instagramLogo} alt='' />
+
+                            <div className='ownerSocials'>     
+                                <div className='ownerInstagram'>
+                                <a href="https://www.instagram.com/sebastian.buriticah/" target='_blank'> <img src={instagramLogo} alt='' /> </a>
                                 </div>
-                                <div className='ownerLink'>
-                                    <img src={twitterLogo} alt='' />
+                                <div className='ownerTwitter'>
+                                <a href="https://twitter.com/wolfgangct" target='_blank'> <img src={twitterLogo} alt='' /> </a>    
+                                    
                                 </div>
-                                <div className='ownerLink'>
-                                    <img src={moreIcon} alt='' />
-                                </div>
+                                
+                            </div>
+
                             </div>
                         </div>
                 </div>
