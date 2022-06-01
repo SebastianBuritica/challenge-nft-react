@@ -1,4 +1,4 @@
-# Abstract Collections
+# Anya Collections
 
 This Project is made with HTML5, CSS3, ReactJS, Axios, MetaMask, thirdweb, Rinkeby Test Network, Web 3.0 Technologies, and OpenSea API.
 
@@ -6,7 +6,7 @@ This Project is made with HTML5, CSS3, ReactJS, Axios, MetaMask, thirdweb, Rinke
 ![alt text](https://raw.githubusercontent.com/Shobhit1338/react-abstract-nft-collection/NFT/public/AbstractNFT.gif)
 
 
-# Abstract Collections - An NFT Collection
+# Anya Collections - An NFT Collection
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
